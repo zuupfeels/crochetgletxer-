@@ -1,0 +1,40 @@
+@media (max-width: 578.98px) {
+    body {
+        background-color: #F2C744;
+        background-position: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva';
+    }
+
+    h2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', ;
+        font-style: normal;
+    }
+
+    .container {
+        display: grid;
+        grid-template-areas:
+            "encabezado"
+            "galeria";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: #F2C744;
+        flex-wrap: wrap;
+
+    }
+
+    .container2 {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "encabezado"
+            "sobre mi"
+            "foto"
+            "galeria";
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 1fr auto 400px auto;
+        background-color: #F2C744;
+        flex-wrap: wrap;
+
+
+    }
+}
